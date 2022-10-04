@@ -1,0 +1,18 @@
+/* Gwonam Squad by Jeremy Bird 2022 */
+
+#include <stdio.h>
+
+int main()
+{
+	char name[15];
+	
+	printf("GWONAM SQUAD  v0.01\n\nEnter your name to join the Squad.\n\n");
+	scanf("%s",name);
+	
+	printf("\nSquadallah! Welcome to GWONAM SQUAD, %s. Enter an integer to get off.\n\n",name);
+	int numb;
+	scanf("%d",&numb);
+	printf("\nWe are off!\n");
+	
+	return 0;
+}
