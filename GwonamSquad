@@ -10,9 +10,9 @@ int main()
 	
 	printf("\n\nGWONAM SQUAD  v0.01\nAn adventure game by Jeremy Bird\n\n");
 	
-	printf("Enter an integer to start a new adventure!\n\n");
-	int start;
-	scanf("%d",&start);
+	printf("PRESS [ENTER] TO START");
+
+    while(getchar()!='\n');
 
 	// GAME SETUP
 
@@ -20,9 +20,9 @@ int main()
 	char name[15];
 	scanf("%s",name);
 	
-	printf("\nSquadallah! Welcome to GWONAM SQUAD, %s. Enter an integer to get off.\n\n",name);
-	int numb;
-	scanf("%d",&numb);
+	printf("\nSquadallah! Welcome to GWONAM SQUAD, %s. Press [Enter] to get off.",name);
+    getchar();
+    while(getchar()!='\n');
 	printf("\nWe are off!\n");
 	
 	return 0;
