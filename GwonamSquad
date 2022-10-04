@@ -10,8 +10,7 @@ int main()
 	
 	printf("\n\nGWONAM SQUAD  v0.01\nAn adventure game by Jeremy Bird\n\n");
 	printf("PRESS [ENTER] TO START");
-
-    while(getchar()!='\n');
+	while(getchar()!='\n');
 
 	// GAME SETUP
 
@@ -25,7 +24,7 @@ int main()
     
 	printf("\n\nPress [Enter] to get off.");
 	getchar();
-    while(getchar()!='\n');
+	while(getchar()!='\n');
 	printf("\nWe are off!\n");
 	
 	return 0;
